@@ -4,7 +4,8 @@
   "private": true,
   "packageManager": "bun@1.2.13",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "bunx vercel dev",
+    "next": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
